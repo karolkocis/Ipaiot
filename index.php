@@ -76,7 +76,7 @@
   }
 
   </style>
-  <title>Document</title>
+  <title>Register</title>
 </head>
 <body>
   <div class="box">
@@ -106,7 +106,7 @@
         <input type="password" name="password"  autocomplete="off" required>
         <label for="">Password</label>
       </div>
-        <input type="submit" value="Save">
+        <input type="submit" value="Submit">
     </form>
   </div>
 </body>
