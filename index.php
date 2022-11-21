@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(bg2.jpg);
+    background-image: url(img.jpeg);
     background-size: cover;
   }
   .box{
@@ -88,6 +88,10 @@
       </div>
       <div class="input-box">
         <input type="email" name="email"  autocomplete="off" required>
+        <label for="">Email</label>
+      </div>
+      <div class="input-box">
+        <input type="tel" name="phone number"  autocomplete="off" required>
         <label for="">Email</label>
       </div>
       <div class="input-box">
