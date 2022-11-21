@@ -91,8 +91,16 @@
         <label for="">Email</label>
       </div>
       <div class="input-box">
-        <input type="tel" name="phone number"  autocomplete="off" required>
-        <label for="">Email</label>
+        <input type="tel" name="phonenumber"  autocomplete="off" required>
+        <label for="">Phone number</label>
+      </div>
+      <div class="input-box">
+        <input type="text" name="adress"  autocomplete="off" required>
+        <label for="">Adress</label>
+      </div>
+      <div class="input-box">
+        <input type="text" name="gender"  autocomplete="off" required>
+        <label for="">Gender</label>
       </div>
       <div class="input-box">
         <input type="password" name="password"  autocomplete="off" required>
