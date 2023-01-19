@@ -11,6 +11,9 @@ $smallest = min($numbers);
 print_r("Najmensia hodnota: ".$smallest."\n");
 
 sort($numbers);
-print_r("Zoradene pole: ".$numbers);
+print_r("Zoradene pole: ");
+foreach($numbers as $item){
+  echo $item . "\n";
+}
 
 ?>
