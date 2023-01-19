@@ -8,10 +8,11 @@ foreach($numbers as $item){
 echo "<br/>";
 
 $largest = max($numbers);
-print_r("Najvacsia hodnota: ".$largest."\n");
+print_r("Najvacsia hodnota: ".$largest);
 echo "<br/>";
+
 $smallest = min($numbers);
-print_r("Najmensia hodnota: ".$smallest."\n");
+print_r("Najmensia hodnota: ".$smallest);
 echo "<br/>";
 
 sort($numbers);
@@ -19,5 +20,4 @@ print_r("Zoradene pole: ");
 foreach($numbers as $item){
   echo $item . "\n";
 }
-
 ?>
