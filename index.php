@@ -1,11 +1,12 @@
 <style type="text/css">
-    body,td,th {
+    body {
     font-size: 14px;
     color: #FFFFFF;
     text-align: center;
 }
 </style>
 <?php
+<body>
 $numbers = array(4, 10, 8, 15, 1, 0, 6, 8 ,19, 20, 3);
 print_r("Pole: ");
 foreach($numbers as $item){
@@ -23,5 +24,5 @@ print_r("Zoradene pole: ");
 foreach($numbers as $item){
   echo $item . "\n";
 }
-
+</body>
 ?>
