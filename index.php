@@ -10,7 +10,7 @@ print_r("Najvacsia hodnota: ".$largest."\n");
 $smallest = min($numbers);
 print_r("Najmensia hodnota: ".$smallest."\n");
 
-$sorted = asort($numbers);
-print_r("Zoradene pole: ".$sorted);
+sort($numbers);
+print_r("Zoradene pole: ".$numbers);
 
 ?>
