@@ -5,12 +5,14 @@ print_r("Pole: ");
 foreach($numbers as $item){
   echo $item . "\n";
 }
+echo "<br/>"
 
 $largest = max($numbers);
 print_r("Najvacsia hodnota: ".$largest."\n");
-
+echo "<br/>"
 $smallest = min($numbers);
 print_r("Najmensia hodnota: ".$smallest."\n");
+echo "<br/>"
 
 sort($numbers);
 print_r("Zoradene pole: ");
