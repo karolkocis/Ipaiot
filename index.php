@@ -9,7 +9,7 @@ echo "<br/>";
 
 $largest = max($numbers);
 print_r("Najvacsia hodnota: ".$largest."\n");
-echo "<br/>"
+echo "<br/>";
 $smallest = min($numbers);
 print_r("Najmensia hodnota: ".$smallest."\n");
 echo "<br/>";
